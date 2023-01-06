@@ -11,9 +11,10 @@
     
      :root {
         --color-bg: #1f1f38;
-        --color-bg-variable: #2c2c6c;
+        --color-bgi: #454572;
+        --color-bg-variant: #4e4e9e;
         --color-primary: #4db5ff;
-        --color-primary-variable: rgba(77, 181, 255, 0.4);
+        --color-primary-variant: rgba(77, 181, 255, 0.4);
         --color-white: #fff;
         --color-light: rgba(255, 255, 255, 0.6);
         --contaier-width-lg: 75%;
@@ -35,7 +36,7 @@
         background: var(--color-bg);
         color: var(--color-white);
         line-height: 1.7;
-        /* background-image: url(../src/assets/img.jfif); */
+        /* background-image: url(../src/assets/background.jpg); */
     }
     /*===========GENERAL STYLES =============*/
     
@@ -58,7 +59,7 @@
     
     section {
         margin-top: 8rem;
-        height: 75vh;
+        /* height: 75vh; */
     }
     
     section>h2,
@@ -87,7 +88,7 @@
     
     .btn {
         width: max-content;
-        display: inline;
+        display: inline-block;
         color: var(--color-primary);
         padding: 0.7rem 1.2rem;
         border-radius: 0.4rem;
@@ -99,7 +100,7 @@
     .btn:hover {
         background: var(--color-white);
         color: var(--color-bg);
-        border: transparent;
+        border-color: transparent;
     }
     
     .btn-primary {

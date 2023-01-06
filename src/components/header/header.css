@@ -1,6 +1,6 @@
                                                         header {
                                                             height: 100vh;
-                                                            padding-top: 7rem;
+                                                            padding-top: 3rem;
                                                             overflow: hidden;
                                                         }
                                                         
@@ -12,7 +12,7 @@
                                                         /*============= CTA =================*/
                                                         
                                                         .cta {
-                                                            margin-top: 2rem;
+                                                            margin-top: 1.6rem;
                                                             display: flex;
                                                             gap: 1.5rem;
                                                             justify-content: center;
@@ -39,12 +39,14 @@
                                                         /*============= IMAGE ME =================*/
                                                         
                                                         .me {
-                                                            background: linear-gradient(--color-primary), transparent;
+                                                            /* background: linear-gradient(var(--color-primary), transparent); */
                                                             width: 22rem;
                                                             height: 30rem;
                                                             left: calc(50% - 11rem);
-                                                            position: relative;
-                                                            bottom: 12rem;
+                                                            position: absolute;
+                                                            /* bottom: 12rem; */
+                                                            margin-top: -12rem;
+                                                            /* border-radius: 12rem 12rem 0 0; */
                                                         }
                                                         /*============= IMAGE ME =================*/
                                                         
