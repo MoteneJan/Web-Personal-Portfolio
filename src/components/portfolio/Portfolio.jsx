@@ -1,6 +1,6 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/port.png'
+import IMG1 from '../../assets/Anime.png'
 import IMG2 from '../../assets/cv.png'
 import IMG3 from '../../assets/snake.png'
 import IMG4 from '../../assets/brick.png'
@@ -16,10 +16,10 @@ const Portfolio = () => {
          <div className="portfolio_item-image">
            <img src={IMG1} alt="" />
          </div>
-         <h3>Personal Portfolio </h3>
+         <h3>Anime Recomendation App</h3>
          <div className="portfolio__item-cta">
          <a href="https://github.com/MoteneJan/" className='btn' target='_blank'>Github</a>
-         <a href="https://github.com/MoteneJan/Web-Personal-Portfolio" className='btn btn-primary' target='_blank'>Live Demo</a>
+         <a href="https://github.com/MoteneJan/Anime_Recommender_Stystem" className='btn btn-primary' target='_blank'>Live Demo</a>
          </div>         
        </article>
 
@@ -34,7 +34,7 @@ const Portfolio = () => {
          </div>
        </article>
 
-       <article className='portfolio__item'>
+       {/* <article className='portfolio__item'>
          <div className="portfolio_item-image">
            <img src={IMG3} alt="" />
          </div>
@@ -54,7 +54,7 @@ const Portfolio = () => {
          <a href="https://github.com/MoteneJan/" className='btn' target='_blank'>Github</a>
          <a href="https://github.com/MoteneJan/Web-Personal-Portfolio" className='btn btn-primary' target='_blank'>Live Demo</a>
          </div>
-       </article>
+       </article> */}
       </div>      
     </section>
   )

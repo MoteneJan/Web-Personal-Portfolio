@@ -2,7 +2,7 @@
 import './about.css'
 import ME from '../../assets/me-about.jpg'
 import {FaAward } from 'react-icons/fa'
-import {FiUsers} from 'react-icons/fi'
+import { IoLocationSharp } from "react-icons/io5";
 import {RiFolderOpenFill} from 'react-icons/ri'
 
 const About = () => {
@@ -20,6 +20,7 @@ const About = () => {
 
         <div className="about__content">
           <div className="about__cards">
+
             <article className='about__card'>
              <FaAward className='about__icon'/>
                <h5>Experience</h5>
@@ -27,21 +28,19 @@ const About = () => {
             </article>
 
             <article className='about__card'>
-              <FiUsers className='about__icon'/>
-               <h5>Clients</h5>
-               <small>20+ Clients Worldwide</small>
-            </article>
-
-            <article className='about__card'>
               <RiFolderOpenFill className='about__icon'/>
                 <h5>Projects</h5>
-                <small>10+ Completed Projects</small>
+                <small>20+ Completed Projects</small>
+            </article> 
+
+            <article className='about__card'>
+              <IoLocationSharp className='about__icon'/>
+                <h5>Location</h5>
+                <small>Pretoria, Gauteng, SA</small>
             </article>  
           </div>
           
            <p>
-             Above show my years of work experience and the Projects completed, 
-             together with the client's reviews Worldwide. 
              Click the button bellow to get in touch of me.
            </p>
 

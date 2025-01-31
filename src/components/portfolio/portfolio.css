@@ -2,6 +2,9 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2.5rem;
+    width: 80%;
+    padding-bottom: 3rem;
+    margin: auto;
 }
 
 .portfolio__item {
@@ -13,8 +16,9 @@
 }
 
 .portfolio__item:hover {
-    border-color: var(--color-primary-variant);
     background: transparent;
+    border-color: var(--color-primary);
+    cursor: default;
 }
 
 .portfolio__item-image {
