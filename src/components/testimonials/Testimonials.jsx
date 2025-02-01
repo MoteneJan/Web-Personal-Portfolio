@@ -1,7 +1,9 @@
 import React from 'react';
 import './testimonials.css';
-import AVTR1 from '../../assets/test1.jpg';
-import AVTR2 from '../../assets/test2.jpg';
+import AVTR1 from '../../assets/Elon.jpg';
+import AVTR2 from '../../assets/Oprah.jpg';
+import AVTR3 from '../../assets/Bill.jpg';
+import AVTR4 from '../../assets/Rihanna.jpg';
 
 //Swiper Imports
 import { Pagination } from 'swiper';
@@ -25,7 +27,7 @@ const Testimonials = () => {
           <div className="client__avatar">
             <img src={AVTR1} alt="Avatar One" />
           </div>
-          <h5 className='client__name'>Micheal Jolly</h5>
+          <h5 className='client__name'>Elon Musk</h5>
           <small className='client__review'>
             Hi Jan, Working with You was a fantastic experience. I exceeded my expectations and delivered a high-quality product on time. Highly recommended!
           </small>          
@@ -35,17 +37,17 @@ const Testimonials = () => {
           <div className="client__avatar">
             <img src={AVTR2} alt="Avatar Two" />
           </div>
-          <h5 className='client__name'>Jonny Jordan</h5>
+          <h5 className='client__name'>Oprah Winfrey</h5>
           <small className='client__review'>
-            The level of professionalism and dedication is truly outstanding Jan. You took the time to understand my needs and provided excellent portfolio.
+            The level of professionalism and dedication is truly outstanding Jan. You took the time to understand the needs and provided excellent portfolio.
           </small>          
         </SwiperSlide>
 
         <SwiperSlide className="testimonial">
           <div className="client__avatar">
-            <img src={AVTR1} alt="Avatar Three" />
+            <img src={AVTR3} alt="Avatar Three" />
           </div>
-          <h5 className='client__name'>Jan Motene</h5>
+          <h5 className='client__name'>Bill Gates</h5>
           <small className='client__review'>
             I'm impressed with the attention to detail and expertise. You went above and beyond to ensure a seamless experience. I couldn't be happier!
           </small>          
@@ -53,7 +55,7 @@ const Testimonials = () => {
 
         <SwiperSlide className="testimonial">
           <div className="client__avatar">
-            <img src={AVTR2} alt="Avatar Four" />
+            <img src={AVTR4} alt="Avatar Four" />
           </div>
           <h5 className='client__name'>Rihanna</h5>
           <small className='client__review'>
