@@ -2,8 +2,8 @@ import React from 'react'
 import './portfolio.css'
 import IMG1 from '../../assets/Anime.png'
 import IMG2 from '../../assets/cv.png'
-import IMG3 from '../../assets/snake.png'
-import IMG4 from '../../assets/brick.png'
+// import IMG3 from '../../assets/snake.png'
+// import IMG4 from '../../assets/brick.png'
 
 const Portfolio = () => {
   return (

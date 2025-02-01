@@ -1,4 +1,3 @@
-import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 import React from 'react'
 import Header from './components/header/Header'
 import About from './components/about/About'
