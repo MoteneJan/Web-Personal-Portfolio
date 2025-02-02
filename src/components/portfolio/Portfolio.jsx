@@ -14,7 +14,7 @@ const Portfolio = () => {
          <div className="portfolio_item-image">
            <img src={IMG1} alt="" />
          </div>
-         <h3>Anime Recomendation App</h3>
+         <h3>Anime Recommendation App</h3>
          <div className="portfolio__item-cta">
          <a href="https://github.com/MoteneJan/" className='btn' target='_blank'>Github</a>
          <a href="https://github.com/MoteneJan/Anime_Recommender_Stystem" className='btn btn-primary' target='_blank'>Live Demo</a>
