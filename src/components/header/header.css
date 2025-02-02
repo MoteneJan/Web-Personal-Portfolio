@@ -68,9 +68,12 @@ header {
 }
 /*================== MEDIA  QUERIES (SMALL DEVICES)=============*/
 
-@media screen and ( max-width: 600px) {
+@media screen and (max-width: 600px) {
     header {
-        height: 100vh;
+        height: 60vh;
+        position: relative;          
+        justify-content: center; 
+    
     }
     .header__socials,
     .scroll__down {
@@ -80,6 +83,5 @@ header {
         width: 14rem;
         height: 12rem;  
         border-radius: 2rem;
-     
     }
 }
