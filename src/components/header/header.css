@@ -70,7 +70,7 @@ header {
 
 @media screen and ( max-width: 600px) {
     header {
-        height: 100vh;
+        height: 130vh;
         position: relative;          
         display: flex;
         justify-content: center; 
@@ -80,7 +80,7 @@ header {
         display: none;
     }
     .me {
-        width: 20rem;
+        width: 21rem;
         height: 16rem;  
         justify-content: right;
     }
