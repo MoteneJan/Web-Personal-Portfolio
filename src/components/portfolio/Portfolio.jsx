@@ -1,7 +1,7 @@
 import React from 'react'
 import './portfolio.css'
 import IMG1 from '../../assets/Anime.png'
-import IMG2 from '../../assets/cv.png'
+import IMG2 from '../../assets/Segmentation.png'
 // import IMG3 from '../../assets/snake.png'
 // import IMG4 from '../../assets/brick.png'
 
@@ -27,7 +27,7 @@ const Portfolio = () => {
          <div className="portfolio_item-image">
            <img src={IMG2} alt="" />
          </div>
-         <h3>Web CV </h3>
+         <h3>Height Segmentation Model </h3>
          <div className="portfolio__item-cta">
          <a href="https://github.com/MoteneJan/" className='btn' target='_blank'>Github</a>
          <a href="https://github.com/MoteneJan/Web-Personal-Portfolio" className='btn btn-primary' target='_blank'>Live Demo</a>
