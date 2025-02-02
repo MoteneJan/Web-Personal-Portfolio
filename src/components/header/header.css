@@ -45,19 +45,10 @@ header {
     left: calc(50% - 11rem);
     position: absolute;
     bottom: 0rem; 
-    /* margin-top: 0rem; */
-    /* border-radius: 12rem 12rem 0 0;   */
-    /* overflow: hidden;
-    padding: 5rem 1.5rem 1.5rem; */
 }
 /*============= IMAGE ME =================*/
 
 .scroll__down {
-    /* position: absolute;
-    right: 19rem;
-    bottom: 27.4rem;
-    transform: rotate(90deg);
-    font-weight: 300; */
     display: flex;
     flex-direction: column;
     position: relative;
@@ -84,5 +75,11 @@ header {
     .header__socials,
     .scroll__down {
         display: none;
+    }
+    .me {
+        width: 14rem;
+        height: 12rem;  
+        border-radius: 2rem;
+     
     }
 }
