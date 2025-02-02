@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Web-Personal-Portfolio/static/css/main.5970fcd2.css",
+    "main.js": "/Web-Personal-Portfolio/static/js/main.1dd30240.js",
+    "static/media/Segmentation.png": "/Web-Personal-Portfolio/static/media/Segmentation.58d51691c69098240580.png",
+    "static/media/MOTENE JO- RESUME.pdf": "/Web-Personal-Portfolio/static/media/MOTENE JO- RESUME.5994e24c0048a70c9d2e.pdf",
+    "static/media/me-about.jpg": "/Web-Personal-Portfolio/static/media/me-about.129c3393e7e68d337504.jpg",
+    "static/media/Anime.png": "/Web-Personal-Portfolio/static/media/Anime.683b7d2b2a34ba62d8f3.png",
+    "static/media/me.jpg": "/Web-Personal-Portfolio/static/media/me.590b91c7d359099bf6e7.jpg",
+    "static/media/Rihanna.jpg": "/Web-Personal-Portfolio/static/media/Rihanna.15a13329001935be3c89.jpg",
+    "index.html": "/Web-Personal-Portfolio/index.html",
+    "main.5970fcd2.css.map": "/Web-Personal-Portfolio/static/css/main.5970fcd2.css.map",
+    "main.1dd30240.js.map": "/Web-Personal-Portfolio/static/js/main.1dd30240.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5970fcd2.css",
+    "static/js/main.1dd30240.js"
+  ]
+}
