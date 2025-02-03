@@ -70,8 +70,8 @@ header {
 
 @media screen and ( max-width: 600px) {
     header {
-        height: 90vh;
-        position: relative;          
+        height: 100vh;
+        position:relative;          
         display: flex;
         justify-content: center; 
     }
