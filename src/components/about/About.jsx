@@ -40,11 +40,14 @@ const About = () => {
             </article>  
           </div>
           
-           <p>
-             Click the button bellow to get in touch of me.
-           </p>
+          <p>
+          Innovative <strong>Software Developer</strong> and <strong>Data Scientist</strong> with a passion for building intelligent solutions using AI, machine learning, and cloud computing.  
+          Over the past 2+ years, I have worked on end-to-end software development, data analytics, and predictive modeling projects.  
+          My expertise spans NLP, Data Visualization, Deep Learning, Web Development, and Scalable Data Pipelines.</p> 
+          
+          <p><strong>Let's connect and create something amazing!</strong></p>
 
-           <a href="#contact" className='btn btn-primary'>Talk To Me</a>
+          <a href="#contact" className='btn btn-primary'>Talk To Me</a>
                
         </div>
       </div>

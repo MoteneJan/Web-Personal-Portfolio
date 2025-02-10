@@ -17,6 +17,7 @@ const Portfolio = () => {
            <img src={IMG1} alt="" />
          </div>
          <h3>Anime Recommendation App</h3>
+         <p>A machine learning-based web application that recommends anime based on user preferences.</p>
          <div className="portfolio__item-cta">
          <a href="https://github.com/MoteneJan/" className='btn' target='_blank'>Github</a>
          <a href="https://github.com/MoteneJan/Anime_Recommender_Stystem" className='btn btn-primary' target='_blank'>Live Demo</a>
@@ -28,6 +29,7 @@ const Portfolio = () => {
            <img src={IMG2} alt="" />
          </div>
          <h3>Height Segmentation Model </h3>
+         <p>A deep learning model that uses satellite imagery and LiDAR data to estimate building heights and classify segments.</p>
          <div className="portfolio__item-cta">
          <a href="https://github.com/MoteneJan/" className='btn' target='_blank'>Github</a>
          <a href="https://github.com/MoteneJan/Segmentation-model-app" className='btn btn-primary' target='_blank'>Live Demo</a>
@@ -39,6 +41,7 @@ const Portfolio = () => {
            <img src={IMG3} alt="" />
          </div>
          <h3>Water Crisis Analysis</h3>
+         <p>Power BI Dashboard to analyse and evaluate water scarcity issues in various regions, based on historical data.</p>
          <div className="portfolio__item-cta">
          <a href="https://github.com/MoteneJan/" className='btn' target='_blank'>Github</a>
          <a href="https://github.com/MoteneJan/Water_Crisis_Maji_Ndogo" className='btn btn-primary' target='_blank'>Live Demo</a>
@@ -50,6 +53,7 @@ const Portfolio = () => {
            <img src={IMG4} alt="" />
          </div>
          <h3>Employee Management System</h3>
+         <p>A desktop application for managing employee records, and performance data.</p>
          <div className="portfolio__item-cta">
          <a href="https://github.com/MoteneJan/" className='btn' target='_blank'>Github</a>
          <a href="https://github.com/MoteneJan/EmpManager_Windows_Form" className='btn btn-primary' target='_blank'>Live Demo</a>

@@ -1,6 +1,6 @@
 header {
     height: 100vh;
-    padding-top: 3rem;
+    padding-top: 2rem; /* Reduced padding to push everything up */
     overflow: hidden;
 }
 
@@ -9,25 +9,27 @@ header {
     height: 100%;
     position: relative;
 }
+
 /*============= CTA =================*/
 
 .cta {
-    margin-top: 1.6rem;
+    margin-top: 1.2rem; /* Moved buttons slightly up */
     display: flex;
     gap: 1.5rem;
     justify-content: center;
 }
+
 /*============= HEADER  SOCIALS =================*/
 
 .header__socials {
     display: flex;
     flex-direction: column;
     position: relative;
-    margin-top: 4rem;
+    margin-top: 4rem; 
     align-items: center;
     left: -26rem;
-    gap: 2.2rem;
-    bottom: 2rem;
+    gap: 2rem;
+    bottom: 1rem;
 }
 
 .header__socials::after {
@@ -36,6 +38,7 @@ header {
     height: 2rem;
     background: var(--color-primary);
 }
+
 /*============= IMAGE ME =================*/
 
 .me {
@@ -44,44 +47,49 @@ header {
     height: 26rem;
     left: calc(50% - 11rem);
     position: absolute;
-    bottom: 0rem; 
+    bottom: 1rem; /* Moves the image slightly up */
 }
-/*============= IMAGE ME =================*/
+
+/*============= SCROLL DOWN =================*/
 
 .scroll__down {
     display: flex;
     flex-direction: column;
     position: relative;
-    margin-top: -9rem;
+    margin-top: -7.9rem; /* Moves scroll text up */
     transform: rotate(90deg);
     align-items: center;
     right: -26rem;
-    gap: 2.2rem;
-    
+    gap: 2rem;
 }
-/*================== MEDIA  QUERIES (MEDIUM DEVICES)=============*/
 
-@media screen and ( max-width: 1024px) {
+/*================== MEDIA QUERIES (MEDIUM DEVICES)=============*/
+
+@media screen and (max-width: 1024px) {
     header {
         height: 68vh;
     }
 }
-/*================== MEDIA  QUERIES (SMALL DEVICES)=============*/
 
-@media screen and ( max-width: 600px) {
+/*================== MEDIA QUERIES (SMALL DEVICES)=============*/
+
+@media screen and (max-width: 600px) {
     header {
         height: 100vh;
-        position:relative;          
+        position: relative;
         display: flex;
-        justify-content: center; 
+        justify-content: center;
     }
+    
     .header__socials,
     .scroll__down {
         display: none;
     }
+
     .me {
         width: 22rem;
-        height: 16rem;  
+        height: 16rem;
         justify-content: right;
+        bottom: 2rem; /* Adjusted to align properly */
     }
 }
