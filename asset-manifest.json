@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/Web-Personal-Portfolio/static/css/main.f3aeaa1a.css",
-    "main.js": "/Web-Personal-Portfolio/static/js/main.b0c1b090.js",
+    "main.css": "/Web-Personal-Portfolio/static/css/main.eb4cad91.css",
+    "main.js": "/Web-Personal-Portfolio/static/js/main.c75aa96b.js",
     "static/media/Segmentation.png": "/Web-Personal-Portfolio/static/media/Segmentation.58d51691c69098240580.png",
     "static/media/Maji_Ndogo.png": "/Web-Personal-Portfolio/static/media/Maji_Ndogo.d8a068003de78f93af15.png",
     "static/media/MOTENE JO- RESUME.pdf": "/Web-Personal-Portfolio/static/media/MOTENE JO- RESUME.5994e24c0048a70c9d2e.pdf",
     "static/media/me-about.jpg": "/Web-Personal-Portfolio/static/media/me-about.129c3393e7e68d337504.jpg",
     "static/media/Anime.png": "/Web-Personal-Portfolio/static/media/Anime.683b7d2b2a34ba62d8f3.png",
     "static/media/me.jpg": "/Web-Personal-Portfolio/static/media/me.590b91c7d359099bf6e7.jpg",
-    "static/media/Emp_Data.png": "/Web-Personal-Portfolio/static/media/Emp_Data.694371a2cdd6e011a36a.png",
+    "static/media/Emp_Data.png": "/Web-Personal-Portfolio/static/media/Emp_Data.a95f159df425ec7af4c8.png",
     "static/media/Rihanna.jpg": "/Web-Personal-Portfolio/static/media/Rihanna.15a13329001935be3c89.jpg",
     "index.html": "/Web-Personal-Portfolio/index.html",
-    "main.f3aeaa1a.css.map": "/Web-Personal-Portfolio/static/css/main.f3aeaa1a.css.map",
-    "main.b0c1b090.js.map": "/Web-Personal-Portfolio/static/js/main.b0c1b090.js.map"
+    "main.eb4cad91.css.map": "/Web-Personal-Portfolio/static/css/main.eb4cad91.css.map",
+    "main.c75aa96b.js.map": "/Web-Personal-Portfolio/static/js/main.c75aa96b.js.map"
   },
   "entrypoints": [
-    "static/css/main.f3aeaa1a.css",
-    "static/js/main.b0c1b090.js"
+    "static/css/main.eb4cad91.css",
+    "static/js/main.c75aa96b.js"
   ]
 }
