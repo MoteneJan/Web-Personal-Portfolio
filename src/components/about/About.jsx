@@ -45,7 +45,7 @@ const About = () => {
           Over the past 2+ years, I have worked on end-to-end Software Development, Data Analytics, and Predictive Modelling projects.  
           My expertise spans NLP, Data Visualization, Deep Learning, Web Development, and Scalable Data Pipelines.</p> 
           
-          <p><strong>Let's connect and create something amazing!</strong></p>
+          <p><strong>Let's connect and create something amazing🤩✨!</strong></p>
 
           <a href="#contact" className='btn btn-primary'>Talk To Me</a>
                
