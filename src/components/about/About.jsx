@@ -41,8 +41,8 @@ const About = () => {
           </div>
           
           <p>
-          Innovative <strong>Software Developer</strong> and <strong>Data Scientist</strong> with a passion for building intelligent solutions using AI, machine learning, and cloud computing.  
-          Over the past 2+ years, I have worked on end-to-end software development, data analytics, and predictive modeling projects.  
+          Innovative <strong>Software Developer</strong> and <strong>Data Scientist</strong> with a passion for building intelligent solutions using AI, Machine Learning, Deep Learning and Cloud Computing.  
+          Over the past 2+ years, I have worked on end-to-end Software Development, Data Analytics, and Predictive Modelling projects.  
           My expertise spans NLP, Data Visualization, Deep Learning, Web Development, and Scalable Data Pipelines.</p> 
           
           <p><strong>Let's connect and create something amazing!</strong></p>
