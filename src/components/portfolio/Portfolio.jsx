@@ -53,7 +53,7 @@ const Portfolio = () => {
            <img src={IMG4} alt="" />
          </div>
          <h3>Employee Management System</h3>
-         <p>A desktop application for managing employee records, and performance data.</p>
+         <p>A desktop application for managing employee records, evaluation and performance.</p>
          <div className="portfolio__item-cta">
          <a href="https://github.com/MoteneJan/" className='btn' target='_blank'>Github</a>
          <a href="https://github.com/MoteneJan/EmpManager_Windows_Form" className='btn btn-primary' target='_blank'>Live Demo</a>
